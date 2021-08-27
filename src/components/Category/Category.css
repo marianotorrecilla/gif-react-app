@@ -1,0 +1,36 @@
+.Category-div {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.Category-title {
+    color:rgb(173, 89, 252);
+}
+
+.Category-ul {
+    list-style-position: inside;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    width: 80vw;
+}
+
+.Category-li {
+    list-style: none;
+    
+}
+
+.Category-link {
+    color: white;
+    font-family: 'Antonio', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0.4rem;
+}
+
+a:hover {
+    color: rgb(152, 45, 253);
+}
