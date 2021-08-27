@@ -1,10 +1,9 @@
 import React, {useState} from 'react'
 import ListOfGifs from '../../components/ListOfGifs/ListOfGifs'
-import { Link, useLocation } from 'wouter'
+import TrendingSearches from '../../components/TrendingSearches/TrendingSearches'
+import { useLocation } from 'wouter'
 import useGifs from '../../hooks/useGifs'
 import '../../App.css'
-
-const POPULAR_GIFS = ["Joey", "Phoebe", "Chandler", "Mónica", "Ross", "Rachel"]
 
 export default function Home () {
     const [keyword, setKeyword] = useState('')
@@ -22,16 +21,7 @@ export default function Home () {
 
     return (
         <>
-            <h3 className="App-title">The most popular gifs</h3>
-            <ul className="App-ul">
-                {POPULAR_GIFS.map((popularGif) => (
-                    <li className="App-li" key={popularGif}>
-                        <Link to={`/search/${popularGif}`}>
-                            {popularGif} gifs
-                        </Link>
-                    </li>
-                ))}
-            </ul>
+            <TrendingSearches />
             <form onSubmit={handleSubmit}>
                 <input
                     className="App-search-box"
