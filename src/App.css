@@ -34,24 +34,27 @@
   color:rgb(173, 89, 252);
 }
 
-.App-li {
-  list-style: none;
-}
-
-.App-ul {
-  padding: 0rem;
-}
-
-a {
+.NextPage-button {
+  display: block;
+  justify-content: center;
+  background-color: rgb(138, 43, 226);
+  border: 2px solid rgb(138, 43, 226);
+  border-radius: 5px;
+  padding: 3px;
+  margin: 1rem;
+  width: 100%;
   color: white;
+  font-size: 20px;
   font-family: 'Antonio', sans-serif;
-  font-size: 18px;
-  text-decoration: none;
 }
 
-a:hover {
-  color: rgb(152, 45, 253);
+.NextPage-button:hover {
+  background-color: rgb(75, 0, 130);
 }
 
 
-
+@media (min-width: 768px) {
+  .NextPage-button {
+    width: 30%;
+  }
+}
