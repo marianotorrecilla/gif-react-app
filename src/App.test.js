@@ -1,8 +1,9 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/gif react app/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders without crashing', async () => {
+  const { findByText } = render(<App />);
+  const titleApp = await findByText(/gif react app/i);
+  expect(titleApp).toBeInTheDocument();
 });
+
