@@ -4,6 +4,7 @@ import SearchForm from '../../components/SearchForm/SearchForm'
 import ListOfGifs from '../../components/ListOfGifs/ListOfGifs'
 import { useLocation } from 'wouter'
 import useGifs from '../../hooks/useGifs'
+import { Helmet } from 'react-helmet'
 import '../../App.css'
 
 
@@ -17,6 +18,9 @@ export default function Home () {
 
     return (
         <>
+            <Helmet>
+                <title>Gif React App | Home</title>
+            </Helmet>
             <TrendingSearches />
             <SearchForm onSubmit={handleSubmit}/>
             <h3 className="App-title">Last search</h3>
