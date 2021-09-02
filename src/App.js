@@ -2,6 +2,7 @@ import React, { Suspense } from 'react';
 import './App.css';
 import SearchResults from './pages/SearchResults/index'
 import Detail from './pages/Detail/index'
+import ErrorPage from './pages/ErrorPage';
 import StaticContext from './context/StaticContext';
 import { GifsContextProvider } from './context/GifsContext';
 
@@ -30,6 +31,10 @@ function App() {
               <Route
                 component={Detail}
                 path="/gif/:id"
+              />
+              <Route
+                component={ErrorPage}
+                path="/404"
               />
             </GifsContextProvider>
           </section>

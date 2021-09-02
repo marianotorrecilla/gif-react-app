@@ -1,0 +1,31 @@
+.Error-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Error-title {
+    color:rgb(173, 89, 252);
+}
+
+.Error-sub-title {
+    color: #50d4f8;
+}
+
+.Gif-error {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.Home-link {
+    color: rgb(173, 89, 252);
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.Home-link:hover {
+    color: #50d4f8;
+}
+
