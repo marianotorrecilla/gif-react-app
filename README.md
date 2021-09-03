@@ -44,12 +44,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 To run all test
 
-### Deployment
+## Deployment
 
 This project has a heroku deploy. You can see it: [https://gif-react-app.herokuapp.com/](https://gif-react-app.herokuapp.com/)
 
 
-### Special thanks
+## Special thanks
 
 I have carried out this project thanks to the contribution and learning given by midudev in his free react live coding courses. I was taking concepts, methods and good practices to develop step by step. Therefore, my special thanks to midudev [https://www.youtube.com/c/midudev](https://www.youtube.com/c/midudev)
 
