@@ -31,6 +31,10 @@ Both for testing:
 + Context
 + Suspense
 
+## API
+
+GIPHY - [https://giphy.com/](https://giphy.com/)
+
 ## Available Scripts
 
 In the project directory, you can run:
