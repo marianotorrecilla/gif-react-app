@@ -7,7 +7,7 @@ export default function useSEO ({ title, description }) {
     useEffect(() => {
         const previousTitle = prevTitle.current
         if (title) {
-            document.title = `Gif React App | ${title}`
+            document.title = `${decodeURIComponent(title)}`
         }
         return () => document.title = previousTitle
     }, [title])
