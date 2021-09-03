@@ -4,32 +4,32 @@ This project is a gif searcher created with React. It contains components, pages
 
 ## Dependencies
 
-"intersection-observer": to lazy load
-"just-debounce-it": to infinit scroll
-"react-helmet": to SEO
-"wouter": to routing
++ "intersection-observer": to lazy load
++ "just-debounce-it": to infinit scroll
++ "react-helmet": to SEO
++ "wouter": to routing
 
 ## DevDependencies
 
 Both for testing:
 
-"@testing-library/react-hooks"
-"react-test-renderer"
++ "@testing-library/react-hooks"
++ "react-test-renderer"
 
 ## Hooks
 
-useState
-useEffect
-useContext
-useRef
-useReducer
++ useState
++ useEffect
++ useContext
++ useRef
++ useReducer
 
 ## Other React implementations
 
-React.memo
-React.lazy
-Context
-Suspense
++ React.memo
++ React.lazy
++ Context
++ Suspense
 
 ## Available Scripts
 
@@ -51,6 +51,6 @@ This project has a heroku deploy. You can see it: [https://gif-react-app.herokua
 
 ### Special thanks
 
-I have carried out this project thanks to the contribution and learning given by midudev in his free react live coding courses. I was taking concepts, methods and good practices to develop step by step. Therefore, my special thanks to midudev [https://www.youtube.com/c/midudev] (https://www.youtube.com/c/midudev)
+I have carried out this project thanks to the contribution and learning given by midudev in his free react live coding courses. I was taking concepts, methods and good practices to develop step by step. Therefore, my special thanks to midudev [https://www.youtube.com/c/midudev](https://www.youtube.com/c/midudev)
 
 
