@@ -20,6 +20,7 @@ Both for testing:
 
 + useState
 + useEffect
++ useCallback
 + useContext
 + useRef
 + useReducer
